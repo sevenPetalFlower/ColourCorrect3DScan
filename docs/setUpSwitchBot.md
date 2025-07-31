@@ -88,4 +88,4 @@ pip install switchbot_api
 
 ---
 
-➡️ **Next:** [White balancing and Demosaicing with DCRAW](DCRAW_WhiteBalance_Demosaic.md)
+➡️ **Next:** [Capture Dataset for 3D Reconstruction](captureDatasetFor3DReconstruction.md)
