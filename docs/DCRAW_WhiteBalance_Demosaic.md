@@ -59,4 +59,4 @@ convertNEF2tiff.bat
 This will apply white balance, demosaic, and convert all `.NEF` files to `.TIFF`.
 This process ensures consistent color correction from physical measurement to image output.
 
-➡️ **Next:** [Capture Dataset for 3D Reconstruction](captureDatasetFor3DReconstruction.md.md)
+➡️ **Next:** [Capture Dataset for 3D Reconstruction](captureDatasetFor3DReconstruction.md)
