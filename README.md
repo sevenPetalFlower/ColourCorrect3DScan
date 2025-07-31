@@ -1,6 +1,6 @@
-# Gissen Internship Project
+# On the way to Colour correct 3D scanning
 
-This repository contains tools developed during the Gissen internship to automate camera control, remote platform rotation, and image processing workflows including frame extraction, depth/disparity map generation, and NEF image handling.
+This repository contains tools and tutorials for colour correct 3d scans, including automated camera control, remote platform rotation, and image processing workflows including frame extraction, depth/disparity map generation, and NEF image handling.
 
 ---
 
