@@ -1,6 +1,11 @@
 # On the way to Colour correct 3D scanning
 
-This repository contains tools and tutorials for colour correct 3d scans, including automated camera control, remote platform rotation, and image processing workflows including frame extraction, depth/disparity map generation, and NEF image handling.
+This repository contains tools and tutorials to create colour correct 3d scans, including automated camera control, remote platform rotation, and image processing workflows including frame extraction, depth/disparity map generation, and NEF image handling.
+
+---
+
+## 3D scan piepline
+![3D scan piepline](docs/img/Approach3DScan.png)
 
 ---
 
@@ -8,16 +13,17 @@ This repository contains tools and tutorials for colour correct 3d scans, includ
 
 - **[Set Up Camera](docs/setUpCamera.md)**
 - **[Set Up SwitchBot](docs/setUpSwitchBot.md)**
+- **[White balancing and Demosaicing with DCRAW](docs/DCRAW_WhiteBalance_Demosaic.md)**
 - **[Capture Dataset for 3D Reconstruction](docs/captureDatasetFor3DReconstruction.md)**
 - **[Reconstruct 3D in RealityScan](docs/reconstruct3DRealityScan.md)**
 
 ---
 
-## 📸 controlCameraUbuntu
+## Lets go through code folders
+
+### 📸 controlCameraUbuntu/camera_installs/
 
 Linux Ubuntu bash tools for capturing images with a DSLR camera via `gphoto2`, and distantly setting camera parameters.
-
-### `camera_installs/`
 
 - **`installs.sh`**  
   Installs necessary packages: `gphoto2`, `exiftool`, and `curl`.
@@ -33,7 +39,7 @@ Linux Ubuntu bash tools for capturing images with a DSLR camera via `gphoto2`, a
 
 ---
 
-## 🔌 controlRemoteRotationPlatform
+### 🔌 controlRemoteRotationPlatform
 
 Contains an HTTP API server that interfaces with a SwitchBot device for remote control.
 
@@ -41,7 +47,7 @@ Contains an HTTP API server that interfaces with a SwitchBot device for remote c
   A Python server that exposes `/connect`, `/press`, and `/disconnect` endpoints. These control a SwitchBot device to pess a button on the remote control that moves platform 1°. 
 ---
 
-## 🧠 image_processing_tools
+### 🧠 image_processing_tools
 
 Scripts to extract, filter, analyze, and transform images or videos during post-processing stages.
 
