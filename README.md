@@ -1,6 +1,10 @@
 # On the way to Colour correct 3D scanning
 
 This repository contains tools and tutorials to create colour correct 3d scans, including automated camera control, remote platform rotation, and image processing workflows including frame extraction, depth/disparity map generation, and NEF image handling.
+<p align="center">
+  <img src="docs/img/PeachModel.png" alt="Peach Model" width="45%" />
+  <img src="docs/img/WhitePlasticModel.png" alt="White Plastic Model" width="45%" />
+</p>
 
 ---
 
