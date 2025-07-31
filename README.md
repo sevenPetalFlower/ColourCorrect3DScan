@@ -20,6 +20,7 @@ This repository contains tools and tutorials to create colour correct 3d scans, 
 - **[Capture Dataset for 3D Reconstruction](docs/captureDatasetFor3DReconstruction.md)**
 - **[White balancing and Demosaicing with DCRAW](docs/DCRAW_WhiteBalance_Demosaic.md)**
 - **[Reconstruct 3D in RealityScan](docs/reconstruct3DRealityScan.md)**
+- **[Materialize](docs/Materialize.md)**
 
 ---
 
